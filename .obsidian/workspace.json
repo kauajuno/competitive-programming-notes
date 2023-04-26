@@ -1,0 +1,196 @@
+{
+  "main": {
+    "id": "266a430c0591c021",
+    "type": "split",
+    "children": [
+      {
+        "id": "caef45ee40eeab8e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0ecab72f2fc6d7e0",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "3e7781040cbdbb83",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3462f215f4aac640",
+    "type": "split",
+    "children": [
+      {
+        "id": "d5f8332521fe9073",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8530407ecd0344f8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byCreatedTimeReverse"
+              }
+            }
+          },
+          {
+            "id": "b7d3103a12751b5a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "eb35e5b0e716ee31",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e59e6e725f9a20cd",
+    "type": "split",
+    "children": [
+      {
+        "id": "ccbe7c3f593ec8a0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e3a913fc6c029caa",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "33eec430fed875aa",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c45e10ab052b5b2b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "63c25b836618d2fb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "README.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "3e7781040cbdbb83",
+  "lastOpenFiles": [
+    "Binary Trees.md",
+    "Double pointers.md",
+    "Iterators.md",
+    "README.md",
+    "Competitive Programming.md",
+    "Introduction.md",
+    "().md",
+    "Binary Exponentiation.md",
+    "images/binary-search-tree-definition.png",
+    "Trees.md",
+    "LeetCode  Difficulties/LeetCode - Hard.md",
+    "LeetCode Exercises/3- Hard/LeetCode 0010 - Regular Expression Match.md",
+    "LeetCode  Difficulties/LeetCode - Easy.md",
+    "LeetCode Exercises/1 - Easy/LeetCode0009 - Palindrome Number.md",
+    "LeetCode Exercises/1 - Easy/LeetCode0001 - Two Sum.md",
+    "LeetCode  Difficulties/LeetCode - Medium.md",
+    "LeetCode Exercises/3- Hard",
+    "LeetCode Exercises/2 - Medium",
+    "LeetCode Exercises/1 - Easy",
+    "LeetCode Exercises",
+    "LeetCode  Difficulties",
+    "images/depth-height-tree-ds.png",
+    "images",
+    "images/basic-tree-structure.png",
+    "Topics/Graphs.md",
+    "Topics/Geometry.md",
+    "C++.md",
+    "Topics/Algebra.md",
+    "Topics/Numerical Methods.md",
+    "Topics/Combinatorics.md",
+    "Topics/Linear Algebra.md",
+    "Topics/String Processing.md",
+    "Topics/Dynamic Programming.md",
+    "Topics/Data Structures.md",
+    "Topics"
+  ]
+}
