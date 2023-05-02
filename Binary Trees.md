@@ -10,6 +10,43 @@ A binary tree is a tree in which nodes can have at most 2 children. There are so
 >[!info]
 >There's some really valuable info about trees that help us calculate things like worst case scenarios for searches. One important thing to keep in mind is that, given that the **height** of a tree is the distance between the root of a tree and its farest leaf, some people wonder what's the height of an empty tree. **By definition, an empty tree has a height of -1**. This often helps understanding the meaning of a balanced binary tree.
 
+# Converting common trees into binary trees
+
+Every tree can be converted into a binary one following those steps:
+
+- Make the assumption that the root of the tree will still be the root after the transformation.
+- Connect each sibling node to each other.
+- Cut the parent-children relationship of every node except for the leftmost one.
+- Rearrange visually.
+
+```mermaid
+graph TD
+1 --> 2
+1 --> 5
+1 --> 7
+2 --> 3
+2 --> 4
+5 --> 6
+7 --> 8
+7 --> 9
+7 --> 10
+```
+
+```mermaid
+graph TD
+
+1 --> 2
+2 --> 3
+2 --> 5
+3 --> 4
+5 --> 6
+5 --> 7
+7 --> 8
+8 --> 9
+9 --> 10
+```
+
+
 # How to implement binary trees
 
 There are two main ways of implementing binary trees:
@@ -21,6 +58,66 @@ Then one might ask, "how is it even possible to implement binary trees with arra
 |0|1|2|3|4|5|6|
 |----|----|----|----|----|----|----|
 | Root | Root's left child (RLC) | Root's right child (RRC) | RLC's left child | RLC's right child | RRC's left child | RRC's right child|
+
+And then there's the dynamical solution as well:
+
+```cpp
+class TreeNode{
+	public:
+	char Data;
+	TreeNode *Lchild;
+	TreeNode *Rchild;
+};
+
+class BinaryTree{
+	private:
+	TreeNode *Root;
+
+	public:
+	BinaryTree(){Root = NULL};
+	TreeNode* GetNode(char);
+	void InsertNode(TreeNode*);
+	void DeleteNode(TreeNode*);
+};
+```
+
+Each way of implementing has its own pros and cons.
+
+Array-implemented trees are very simple of understanding and implementing and is efficient for complete binary trees, and they do not waste memory dealing with null pointers on the leaves. On the other hand, they can waste a lot of memory if the tree isn't near to being completed, lots of indexes won't be used on unbalanced trees, there's going to be lots of operations for insertions and removals, etc.
+
+Dynamically-implemented trees can grow dynamically so it's not needed to foresee how big it needs to be, and there's no waste of memory for unbalanced trees. Insertions and removals are much more efficient and it deals well with dynamic-typed data. However, it isn't possible to access the nodes directly and it requires more memory to store each node due to the pointers.
+
+The final veredict of this comparison is that array-implemented can be useful but only in very specific cases, so we're hardly ever dealing with them. Most of the time we're going to work with the dynamic implementation.
+
+# Traversals
+
+If we're dealing with trees we need to know how to manipulate data in it, after all the purpose of data structures is storing data in a way that we can insert and remove data from it somehow. But before diving deeper in the insertion and removal operations themselves, we need to know how to get to the point were we insert or remove nodes.
+Those operations are mostly done at the $h$ level of the tree, so we need a way to reach there, and there are some types of traversals that can be performed to reach that.
+
+Let's assume this following set of operations:
+
+- D: read the data from a node
+- L: move to the left-child node
+- R: move to the right-child node
+
+There are three most popular types of traversals:
+
+- Preorder: D -> L -> R (DLR)
+- Inorder: L -> D -> R (LDR)
+- Postorder: L -> R -> D (LRD)
+
+# EXTRA: Reconstruction of a tree
+
+Did you know it is possible to reconstruct a tree given two of the traversals result? Well, it is possible if the two traversals are:
+
+- Inorder and preorder
+- Inorder and postorder
+
+There's a ruleset that guides this reconstruction:
+
+- If you've got the inorder and preorder traversals, the first element in the preorder is the root. If you've got the inorder and postorder, then the last element in the postorder is the root.
+
+
 
 # Binary Search Tree (BST)
 
@@ -63,6 +160,8 @@ graph TD
 12 --> 15
 ```
 Note that this definition applies to every node in the tree. If we had a 13 where the 11 is in the graph above, it wouldn't be a BST anymore, cause 13 > 12 and 13 would be there as the left children of 12.
+
+> BSTs don't need to be a perfect binary tree as in the example.
 
 
 

@@ -317,5 +317,64 @@ A set $S$ always has $2^{|S|}$ possible subsets. For example, the subsets of $S 
 
 It's also possible to create a set using the rule of form $\{f(n) :  n \in S\}$. For example, the set $\{2n : n \in \mathbb{N} \}$ contains every even integer.
 
+### Logic
+
+Logic expressions can be either true or false. This looks pretty simples but logical expressions can get really complex sometimes. Not something that happens that often in competitive programming, knowing the basics is already a nice kickoff:
+
+There are four main logical operations:
+
+- AND: in this binary operator, the result is true only if both arguments are true, otherwise it's false.
+- OR: in this one, the result is false only if both arguments are false, otherwise is true.
+- NOT: this is an unary operator, if the argument passed is true it turns out to be false, the same goes the other way.
+- IMPLIES: if a true argument implies in false, then the expression is false, otherwise it is true.
+
+| $A$ | $B$ | $\lnot{A}$ | $\lnot{B}$ | $A \land B$ | $A \lor B$ | $A \implies B$ | $A \iff B$ |
+|---|---|---|---|---|---|---|---|
+| $0$ | $0$ | $1$ | $1$ | $0$ | $1$ | $1$ | $1$ |
+| $0$ | $1$ | $1$ | $0$ | $0$ | $1$ | $1$ | $0$ |
+| $1$ | $0$ | $0$ | $1$ | $0$ | $1$ | $0$ | $0$ |
+| $1$ | $1$ | $0$ | $0$ | $1$ | $0$ | $1$ | $1$ |
+
+These logical expressions can be denominated as predicates if they have parameters. Their results can be true or false depending on the parameters they receive. Let's suppose we have a $O(x)$ predicate that determines if a number is odd. It would return `true` for $3$ and `false` for $10$, for example.
+
+There's also quantifiers in logic that connects logical expressions to the elements of a set. The two quantifiers are **for all** ($\forall$) and **there is** ($\thereis$).
+
+### Functions
+
+Functions basically transform inputs in outputs following a rule or set of rules. There are some must-know functions for competitive programming:
+
+- $\lceil x \rceil$: rounds the number $x$ up one integer.
+- $\lfloor x \rfloor$: rounds the number $x$ down one integer.
+- min(collection): returns the lowest value from a collection. For example: given the set $(1, 2, 3, 4)$, the function will return $1$.
+- max(collection): return the highest value from a collection. For example: given the set from the previous example, the function will return $4$.
+- fib$(n)$: returns the number at the $n$th position in the fibonacci numbers sequence. For example: fib$(5)$ = $5$. It's defined recursively as:
+$$f(0) = 0$$
+$$f(1) = 1$$
+$$f(n) = f(n-1) + f(n-2)$$
+
+>[!info]
+>There's a non-recursive formula called Binet' formula that also calculates fibonacci numbers:
+>$$f(n) = \frac{(1 + \sqrt{5})^{n} - (1 - \sqrt{5})^{n}}{2^{n}\sqrt{5}}$$
+
+### Logarithms
+
+Logarithms are kinda abstract at first, but basically we can affirm $log_{k}{(x)} = a$ when $k^a = x$. We can divide $x$ by $k$ exactly $a$ times before reaching $1$.
+$$\log_{2}{32} = 5$$
+$$32 \rightarrow 16 \rightarrow 8 \rightarrow 4 \rightarrow 2 \rightarrow 1$$
+
+>[!info]
+>Note that there's exactly five arrows.
+
+Here are some other useful logarithm properties:
+
+$$log_k{(ab)} = log_k(a) + log_k(b)$$
+$$log_k{(x^n)} = n \cdot log_k(x)$$
+$$log_k{(\frac{a}{b})} = log_k(a) - log_k(b)$$
+$$log_u{(x)} = \frac{log_k{(x)}}{log_k{(u)}}$$
+
+Other two things that are important to know about logarithms:
+
+- When the base of an logarithm is "hidden", we make an assumption that it is a $log_{10}$.
+- When the logarithm is denoted as $\ln$, it refers to a natural logarithm, in which the base is $e \approx 2.71828$, the euler number.
 
 

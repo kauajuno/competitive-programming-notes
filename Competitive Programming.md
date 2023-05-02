@@ -18,7 +18,7 @@
 ## Advanced Topics
 
 
-# Basic Data Structures
+# Data Structures
 
 - [[Trees]]
 
