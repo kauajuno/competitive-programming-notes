@@ -31,4 +31,7 @@
 # C++ tricks and functions
 - [[Double pointers]]
 - [[Iterators]]
+
+# CP-UFG
+- [[Binary Search]]
 - 

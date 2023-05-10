@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Time complexity.md",
+                "file": "LeetCode Exercises/1 - Easy/LeetCode0088 - Merge Sorted Array.md",
                 "mode": "source",
                 "source": false
               }
@@ -64,6 +64,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "813ea8305857d417",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -85,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Time complexity.md",
+                "file": "LeetCode Exercises/1 - Easy/LeetCode0088 - Merge Sorted Array.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Time complexity.md",
+                "file": "LeetCode Exercises/1 - Easy/LeetCode0088 - Merge Sorted Array.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Time complexity.md"
+                "file": "LeetCode Exercises/1 - Easy/LeetCode0088 - Merge Sorted Array.md"
               }
             }
           }
@@ -148,25 +156,28 @@
   },
   "active": "3e7781040cbdbb83",
   "lastOpenFiles": [
-    "README.md",
+    "LeetCode  Difficulties/LeetCode - Easy.md",
+    "Untitled.canvas",
+    "LeetCode Exercises/1 - Easy/LeetCode0088 - Merge Sorted Array.md",
+    "LeetCode Exercises/1 - Easy/LeetCode0001 - Two Sum.md",
+    "LeetCode  Difficulties/LeetCode - Hard.md",
+    "LeetCode  Difficulties/LeetCode - Medium.md",
+    "Binary Search.md",
+    "Fodase.md",
+    "Binary Exponentiation.md",
     "Binary Trees.md",
+    "Competitive Programming.md",
+    "Double pointers.md",
     "Trees.md",
+    "Maximum subarray sum.md",
+    "Time complexity.md",
+    "README.md",
     "Introduction.md",
     "Iterators.md",
-    "Time complexity.md",
-    "Maximum subarray sum.md",
-    "Untitled.canvas",
-    "Competitive Programming.md",
-    "Binary Exponentiation.md",
-    "Double pointers.md",
     "().md",
     "images/binary-search-tree-definition.png",
-    "LeetCode  Difficulties/LeetCode - Hard.md",
     "LeetCode Exercises/3- Hard/LeetCode 0010 - Regular Expression Match.md",
-    "LeetCode  Difficulties/LeetCode - Easy.md",
     "LeetCode Exercises/1 - Easy/LeetCode0009 - Palindrome Number.md",
-    "LeetCode Exercises/1 - Easy/LeetCode0001 - Two Sum.md",
-    "LeetCode  Difficulties/LeetCode - Medium.md",
     "LeetCode Exercises/3- Hard",
     "LeetCode Exercises/2 - Medium",
     "LeetCode Exercises/1 - Easy",
@@ -180,10 +191,6 @@
     "C++.md",
     "Topics/Algebra.md",
     "Topics/Numerical Methods.md",
-    "Topics/Combinatorics.md",
-    "Topics/Linear Algebra.md",
-    "Topics/String Processing.md",
-    "Topics/Dynamic Programming.md",
     "Topics"
   ]
 }
